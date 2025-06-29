@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prerna '25</title>
+  <link rel="stylesheet" href="home.css">
+    <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Top Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #000;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .more-button {
+      background-color: #fff;
+      color: #000;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .more-button:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Side Menu */
+    .side-menu {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 300px;
+      height: 100%;
+      background-color: #111;
+      color: white;
+      padding: 30px 20px;
+      transition: right 0.4s ease;
+      z-index: 999;
+    }
+
+    .side-menu.open {
+      right: 0;
+    }
+
+    .side-menu h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .side-menu a {
+      display: block;
+      color: white;
+      padding: 10px 0;
+      text-decoration: none;
+      font-size: 18px;
+      border-bottom: 1px solid #333;
+    }
+
+    .side-menu a:hover {
+      color: #00ffe1;
+    }
+  </style>
+</head>
+<body>
+ <section class="section" id="about">
+  <div class="content">
+    <h2>About Prerna</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi ea omnis nobis ipsam sint amet, placeat mollitia aperiam consequuntur dolore sunt? Saepe, ea dignissimos sunt quidem in aspernatur eum consectetur optio nesciunt id! Cum modi, nulla quidem temporibus sint, quas totam consequatur vitae praesentium cupiditate labore perferendis porro eos. Alias vitae, fugiat voluptatibus incidunt ullam rem vero voluptate deserunt cupiditate consequatur ducimus sit possimus a aliquid repellendus ab aliquam, obcaecati provident quos! Cum ut perspiciatis minima? Dolores at suscipit officiis aliquam est, itaque quasi corporis hic veritatis maxime sed possimus ex sapiente illum eligendi. Veritatis doloremque earum accusamus, maiores sed asperiores ducimus possimus, ipsum, error molestiae sequi odio veniam voluptatibus! Placeat, accusamus autem similique laudantium pariatur sapiente ipsam reprehenderit iure natus vero qui voluptate, sit dolore cum quod incidunt vel et impedit, expedita aliquid dolorem harum! Temporibus praesentium, obcaecati, atque aperiam optio quas magnam corporis repellendus, exercitationem iusto consectetur facere officia molestias laborum pariatur magni blanditiis error ducimus vitae sed quis tenetur. Consequuntur sed aspernatur officia quas excepturi quae in! Nihil eum vel, velit, ad beatae quo cumque minus veniam cum, iste assumenda rem magnam alias modi saepe aperiam. Est, distinctio architecto? Numquam maxime nisi magni sint saepe quo!</p>    
+</div>
+<div class="zoom-bg" style="background-image: url('https://media.licdn.com/dms/image/v2/C4E1BAQFaECtpCK2WiA/company-background_10000/company-background_10000/0/1638621690072/msuprerna_cover?e=2147483647&v=beta&t=Mj1U4O9J2Hnv8Bll3UjLvQBJUUF-Yi_6AjIOJdvSztw');"></div>
+</section>
+
+  <!-- Navbar -->
+  <div class="navbar">
+  <div>Prerna</div>  <button class="more-button" onclick="toggleMenu()">More</button>
+  </div>
+
+  <!-- Side Menu -->
+  <div id="sideMenu" class="side-menu">
+    <h3>Explore</h3>
+    <a href="team.html">Team</a>
+    <a href="glimpses.html">Glimpses</a>
+    <a href="donation.html">Donation</a>
+    <a href="segments.html">Segments</a>
+    <!-- Add more options as needed -->
+  </div>
+
+<section class="section" id="about">
+  <div class="content">
+    <h2>Archivements</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellat corrupti sint, illo, suscipit, maxime quibusdam quasi voluptatibus voluptatem animi officia dignissimos architecto quod soluta vel rem recusandae! Ipsa dolores quod facilis, corporis veritatis suscipit voluptatibus minima odit dolorem minus delectus distinctio alias officia praesentium laudantium nobis saepe harum perferendis enim similique vel maiores doloremque. Quo, eaque possimus perferendis odio ducimus alias vitae, ipsum temporibus distinctio eius doloremque sequi amet modi adipisci provident maiores iusto soluta tempora ex pariatur, expedita voluptatem ad cum? Ab necessitatibus consequuntur sint, rem libero accusantium quisquam. Doloribus rem voluptates, incidunt sapiente rerum qui, odit labore, quaerat recusandae beatae voluptate sequi sed. Ratione, inventore iste aperiam sed cupiditate culpa laboriosam architecto amet quibusdam tempora sapiente praesentium fuga pariatur ipsa perferendis provident minima ad repellat quos modi velit repudiandae harum deserunt omnis! Doloremque, harum excepturi quod exercitationem odit voluptas ducimus quaerat blanditiis libero a iure pariatur, voluptatum assumenda distinctio nemo ut magnam tempora ex rem deserunt! Reprehenderit qui aut deleniti natus amet, sunt laboriosam itaque? Voluptas adipisci, excepturi voluptatibus molestias unde suscipit at ullam libero voluptate aspernatur, explicabo optio tempora hic error veniam illum similique eveniet? Voluptates a, saepe sapiente ut iusto vitae tempore id perspiciatis nihil.</p>
+  </div>
+  <div class="zoom-bg" style="background-image: url('https://pbs.twimg.com/media/D5zARmmUEAAOl9k.jpg');"></div>
+</section>
+
+<section class="section" id="about">
+  <div class="content">
+    <h2>Our Partners and Sponcers</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fugiat, unde magni molestias sit, debitis voluptates cupiditate repudiandae libero ex perferendis corrupti aut consectetur vero rerum recusandae? Accusamus sint obcaecati voluptatem molestias aut deserunt nemo! Nobis maiores ullam quasi architecto quae dicta blanditiis repudiandae illo eligendi tenetur nesciunt corporis voluptatum saepe quia neque laudantium dolorum ab inventore, veniam unde sed reprehenderit sunt quos similique? Omnis similique molestias corporis soluta est ut facilis officiis quae perferendis! Provident rerum dolorem magnam nam dolores sapiente, harum itaque error vero cum quaerat eveniet expedita maxime officiis quidem, voluptate optio iste ipsam officia eaque alias ex nesciunt veniam cupiditate. Inventore dolore temporibus similique illum sapiente voluptatum odio, quaerat delectus omnis iure accusamus excepturi cupiditate eligendi, aut iste aspernatur dicta voluptates quis laudantium nesciunt amet, mollitia quasi adipisci quidem. Molestias reiciendis laudantium numquam obcaecati provident accusamus inventore cumque repudiandae animi laborum ipsa illo autem doloremque delectus saepe quis iste, sit recusandae modi aliquam consectetur ipsum earum. Eos a voluptatibus officia repellendus inventore dolor eum dicta, sit suscipit itaque perferendis iste doloremque. Culpa accusamus maiores tenetur consequuntur qui aut eum laboriosam perferendis, in quod accusantium, iure veritatis? Excepturi eaque sed expedita, possimus quis error a reprehenderit incidunt?</p>
+  </div>
+  <div class="zoom-bg" style="background-image: url('images/bg2.jpg');"></div>
+</section>
+
+ <script src="home.js"></script>
+</body>
+</html>
